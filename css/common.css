@@ -2,6 +2,11 @@ html{
 	margin:0;
 	padding: 0;
 
+	background-image: url("../img/code.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+
 	font: normal 100%/1.4 Georgia,serif;
 }
 
