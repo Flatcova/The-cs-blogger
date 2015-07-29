@@ -11,7 +11,7 @@ html{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
-	background-color: #000531;
+	background-color: #E6E6FA;
 	color: #fff;
 }
 .masthead a{
@@ -27,6 +27,7 @@ html{
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
+	background-color: #FFFACD
 }
 
 .nav > li{
