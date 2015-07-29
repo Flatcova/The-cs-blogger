@@ -13,11 +13,9 @@ html{
 	background-position: center center;
 	background-color: #E6E6FA;
 	color: #fff;
-	text-align: center;
 }
-.masthead a{
-	text-decoration: none;
-	color: inherit;
+#logo{
+	text-align: center;
 }
 
 #title{
