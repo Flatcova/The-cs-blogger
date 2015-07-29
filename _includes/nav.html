@@ -1,7 +1,17 @@
 <nav>
-	<ul class="nav {{include.navclass}}">
+<!-- 	<ul class="nav {{include.navclass}}">
 		<li><a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
 		<li><a href="{{site.baseurl}}/about/">About</a></li>
 		<li><a href="{{site.baseurl}}/news.html" class="{% if page.url contains 'news'%}current{% endif %}">News</a></li>
-	</ul>
+	</ul> -->
+
+	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+		<ul>
+			<li><a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
+			<li><a href="{{site.baseurl}}/about/">About</a></li>
+			<li><a href="{{site.baseurl}}/news.html" class="{% if page.url contains 'news'%}current{% endif %}">News</a></li>
+		</ul>
+	</button>
 </nav>
+
+
