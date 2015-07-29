@@ -20,18 +20,19 @@ html{
 }
 
 .current{
-	background-color: red;
+	background-color: #E6E6FA;
 }
 
 .nav{
 	margin: 0;
 	padding: 0;
 	list-style-type: none;
-	background-color: #FFFACD
+	background-color: #FFFACD;
+	color: #fff;
 }
 
 .nav > li{
-display: inline-block;
+	display: inline-block;
 }
 
 .nav a{
