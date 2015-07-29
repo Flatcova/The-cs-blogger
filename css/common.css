@@ -2,31 +2,25 @@ html{
 	margin:0;
 	padding: 0;
 
-	background-image: url("../img/code.png");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	opacity: 0.5;
-
 	font: normal 100%/1.4 Georgia,serif;
-
-	color:#fff; 
 }
 
 .masthead{
 	padding: 1em;
-	background-image: url("../img/lodging.png");
+	background-image: url("../img/code.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 	background-color: #000531;
 	color: #fff;
-	opacity: none;
+}
+.masthead a{
+	text-decoration: none;
+	color: inherit;
 }
 
 .current{
-	background-color: #000531;
-	color: #fff;
+	background-color: red;
 }
 
 .nav{
@@ -40,7 +34,6 @@ display: inline-block;
 }
 
 .nav a{
-	color: #fff;
 	text-decoration: none;
 }
 
