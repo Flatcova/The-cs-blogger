@@ -7,3 +7,10 @@ layout: default
 <h5>{{content}}</h5>
 
 <p>{{page.source}}</p>
+
+{% if page.previous %}
+	<a rel="prev" href="{{page.previous.url}}">&larr; Oldest</a>
+{% endif %}
+{% if page.next %}
+	<a rel="next" href="{{page.next.url}}">Newer &rarr;</a>
+{% endif %}
