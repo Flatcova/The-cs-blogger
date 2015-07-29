@@ -5,7 +5,7 @@ layout: default
 <h1>News</h1>
 
 <ul>
-	{% for posts in site.categories.news%}
-	{% include posts.html %}
+	{% for news in site.categories.news%}
+		{% include posts.html %}
 	{% endfor %}
 </ul>
