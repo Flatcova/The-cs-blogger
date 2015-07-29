@@ -12,10 +12,12 @@ html{
 	background-size: cover;
 	background-position: center center;
 	background-color: #E6E6FA;
-	color: #fff;
 }
+
 #logo{
 	text-align: center;
+	text-decoration: none;
+	color: #fff;
 }
 
 #title{
