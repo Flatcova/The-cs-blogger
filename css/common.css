@@ -19,6 +19,12 @@ html{
 	color: inherit;
 }
 
+#title{
+	background-color: #E6E6FA;
+	text-align: center center;
+	text-transform: uppercase;
+}
+
 .current{
 	background-color: #E6E6FA;
 }
