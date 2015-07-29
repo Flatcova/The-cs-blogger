@@ -6,7 +6,8 @@ html{
 }
 
 .logo{
-	text-decoration: none;	
+	text-decoration: none;
+	font-style: none;	
 }
 
 .masthead{
