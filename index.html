@@ -4,3 +4,13 @@ layout: default
 
 <h2>Welcome to the CS Blogger page!!!</h2>
 <p>Your have come to the right place to learn more about coding :)</p>
+
+
+<ul>
+	{% for news in site.posts limit: 4 %}
+	<li>
+		<a href="#">{{news.title}}</a>
+		<p>{{news.meta}}</p>
+	</li>
+	{% endfor %}
+</ul>
