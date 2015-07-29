@@ -9,7 +9,9 @@ layout: default
 <p>{{page.source}}</p>
 
 {% if page.previous %}
-	<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}">&larr; Oldest</a>
+	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+		<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}">&larr; Oldest</a>
+	</button>
 {% endif %}
 {% if page.next %}
 	<a rel="next" href="{{site.baseurl}}{{page.next.url}}">Newer &rarr;</a>
