@@ -31,10 +31,10 @@ display: inline-block;
 }
 
 .nav a{
-	color: inherit;
+	color: #fff;
 	text-decoration: none;
 }
 
 .nav-top{
-	font-size: 2.25rem;
+	font-size: 1.5rem;
 }
