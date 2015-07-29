@@ -4,6 +4,11 @@ html{
 
 	font: normal 100%/1.4 Georgia,serif;
 }
+
+.logo{
+	text-decoration: none;	
+}
+
 .masthead{
 	padding: 1em;
 	background-image: url("../img/lodging.png");
