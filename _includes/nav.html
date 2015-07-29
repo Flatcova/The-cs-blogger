@@ -6,12 +6,15 @@
 	</ul> -->
 
 	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-		<ul>
-			<li><a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a></li>
-			<li><a href="{{site.baseurl}}/about/">About</a></li>
-			<li><a href="{{site.baseurl}}/news.html" class="{% if page.url contains 'news'%}current{% endif %}">News</a></li>
-		</ul>
+		<a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}">Home</a>
+	</button>
+	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+		<a href="{{site.baseurl}}/about/">About</a>
+	</button>
+	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+		<a href="{{site.baseurl}}/news.html" class="{% if page.url contains 'news'%}current{% endif %}">News</a>
+	</button>
+	<button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+		Nasdass
 	</button>
 </nav>
-
-
