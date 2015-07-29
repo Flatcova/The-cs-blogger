@@ -5,8 +5,10 @@ html{
 	font: normal 100%/1.4 Georgia,serif;
 }
 
-.logo a{
+.logo{
 	text-decoration: none;
+	color: inherit;
+	cursor: inherit;
 }
 
 .masthead{
