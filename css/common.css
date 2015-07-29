@@ -37,6 +37,7 @@ html{
 
 .nav a{
 	text-decoration: none;
+	color: inherit;
 }
 
 .nav-top{
