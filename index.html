@@ -8,10 +8,6 @@ layout: default
 <h3>Most recent post I have done</h3>
 <ul>
 	{% for news in site.posts limit: 3 %}
-	<li>
-		<h4><a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a></h4>
-		<h5>{{news.meta}}</h5>
-		<p>{{news.category}}</p>
-	</li>
+	{% include posts.html %}
 	{% endfor %}
 </ul>

@@ -6,9 +6,6 @@ layout: default
 
 <ul>
 	{% for posts in site.categories.news%}
-	<li>
-		<a href="">{{posts.title}}</a>
-		<p>{{posts.meta}}</p>
-	</li>
+	{% include posts.html %}
 	{% endfor %}
 </ul>
