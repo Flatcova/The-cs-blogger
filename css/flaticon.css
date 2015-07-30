@@ -115,6 +115,7 @@ margin-left: 20px;
 }
 .flaticon-facebook29:before {
 	content: "\e021";
+	color: blue;
 }
 .flaticon-facebook30:before {
 	content: "\e022";
@@ -152,7 +153,6 @@ margin-left: 20px;
 .flaticon-github13:before {
 	content: "\e02d";
 	color: black;
-	font-size: auto;
 }
 .flaticon-github14:before {
 	content: "\e02e";
@@ -162,6 +162,7 @@ margin-left: 20px;
 }
 .flaticon-google29:before {
 	content: "\e030";
+	color: red;
 }
 .flaticon-google30:before {
 	content: "\e031";
@@ -216,6 +217,7 @@ margin-left: 20px;
 }
 .flaticon-linkedin12:before {
 	content: "\e042";
+	color: blue;
 }
 .flaticon-male157:before {
 	content: "\e043";
