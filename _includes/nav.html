@@ -1,10 +1,8 @@
 <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Caterogies Menu</span>
     <nav class="mdl-navigation">
-      <a class="mdl-navigation__link" href="{{site.baseurl}}/#">Angular JS</a>
-      <a class="mdl-navigation__link" href="{{site.baseurl}}/#">HTML 5</a>
-      <a class="mdl-navigation__link" href="{{site.baseurl}}/#">CSS</a>
-      <a class="mdl-navigation__link" href="{{site.baseurl}}/#">Java Script</a>
-      <a class="mdl-navigation__link" href="{{site.baseurl}}/#">Python</a>
+		{% for news in site.categories%}
+			<a class="mdl-navigation__link" href="{{site.baseurl}}{{category.url}}">{{news.category}}</a>
+		{% endfor %}
     </nav>
 </div>
