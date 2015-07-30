@@ -11,7 +11,7 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
 	font-family: Flaticon;
-        font-size: auto;
+        font-size: 25px;
 font-style: normal;
 }.flaticon-app8:before {
 	content: "\e000";
