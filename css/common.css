@@ -1,18 +1,6 @@
-/*html{
-	margin:0;
-	padding: 0;
-
-	font: normal 100%/1.4 Georgia,serif;
+.mdl-navigation__link{
+	padding: none;
 }
-
-body{
-	padding: 1em;
-	background-image: url("../img/bg.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
-	background-color: #E6E6FA;
-}*/
 
 #logo{
 	text-align: center;
