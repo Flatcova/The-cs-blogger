@@ -2,7 +2,7 @@
     <span class="mdl-layout-title">Caterogies Menu</span>
     <nav class="mdl-navigation">
 		{% for news in site.categories%}
-			<a class="mdl-navigation__link" href="{{site.baseurl}}{{category.url}}">{{news.category}}</a>
+			<a class="mdl-navigation__link" href="{{site.baseurl}}{{news.url}}">{{news.category}}</a>
 		{% endfor %}
     </nav>
 </div>
