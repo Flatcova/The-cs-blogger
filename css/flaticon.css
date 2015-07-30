@@ -151,7 +151,8 @@ margin-left: 20px;
 }
 .flaticon-github13:before {
 	content: "\e02d";
-	background-color: black;
+	color: black;
+	font-size: auto;
 }
 .flaticon-github14:before {
 	content: "\e02e";
