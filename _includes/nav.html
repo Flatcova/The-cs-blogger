@@ -1,7 +1,16 @@
-<nav>
+<!-- <nav>
 	<ul class="nav {{include.navclass}}">
 		<li><a href="{{site.baseurl}}/" class="{% if page.url == '/index.html' %}current{% endif %}"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">Home</button></a></li>
 		<li><a href="{{site.baseurl}}/about/"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">About</button></a></li>
 		<li><a href="{{site.baseurl}}/news.html" class="{% if page.url contains 'news'%}current{% endif %}"><button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">News</button></a></li>
 	</ul>
-</nav>
+</nav> -->
+
+<div class="mdl-layout__drawer">
+    <span class="mdl-layout-title">Menu</span>
+    <nav class="mdl-navigation">
+      <a class="mdl-navigation__link" href="{{site.baseurl}}/">Home</a>
+      <a class="mdl-navigation__link" href="{{site.baseurl}}/#">About</a>
+      <a class="mdl-navigation__link" href="{{site.baseurl}}/news.html">News</a>
+    </nav>
+</div>
