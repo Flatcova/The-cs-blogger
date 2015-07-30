@@ -1,8 +1,10 @@
 <div class="mdl-layout__drawer">
     <span class="mdl-layout-title">Caterogies Menu</span>
     <nav class="mdl-navigation">
-		{% for news in site.categories.news%}
+		{% for news in site.news%}
+			{% if news.category != site.category %}
 			<a class="mdl-navigation__link" href="{{site.baseurl}}{{news.url}}">{{news.category}}</a>
+			{% endif %}
 		{% endfor %}
     </nav>
-</div>
+</div>	
