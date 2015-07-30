@@ -1,5 +1,5 @@
-.mdl-navigation__link{
-	padding: none;
+.mdl-navigation .mdl-navigation__link{
+	padding: 0 0;
 }
 
 #logo{
