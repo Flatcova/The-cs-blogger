@@ -12,7 +12,7 @@
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
 	font-family: Flaticon;
         font-size: 25px;
-        color: white;
+        color: white 80%;
 font-style: normal;
 }.flaticon-app8:before {
 	content: "\e000";
