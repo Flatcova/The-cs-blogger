@@ -2,15 +2,8 @@
 layout: header
 ---
 
-<h4 class="titin">Welcome to the CS Blogger page!!!</h4>
+<h4 class="titin">Welcome to The CS Blogger!!</h4>
 
 {% include cards.html%}
 
-<p>Your have come to the right place to learn more about coding :)</p>
 
-<h3>Most recent post I have done</h3>
-<ul>
-	{% for news in site.posts limit: 3 %}
-	{% include posts.html %}
-	{% endfor %}
-</ul>

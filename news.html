@@ -4,8 +4,5 @@ layout: header
 
 <h1>News</h1>
 
-<ul>
-	{% for news in site.categories.news%}
-		{% include posts.html %}
-	{% endfor %}
-</ul>
+
+{% include posts.html catergory='Angular JS'%}
