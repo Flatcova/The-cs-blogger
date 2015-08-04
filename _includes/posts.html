@@ -1,11 +1,9 @@
 <ul>
 	{% for news in site.posts limit: 3 %}
-		{% if news.category == include.category %}
 		<li>	
 			<h4><a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a></h4>
 			<h5>{{news.meta}}</h5>
 			<p>{{news.category}}</p>
 		</li>
-		{% endif %}
 	{% endfor %}
 </ul>
