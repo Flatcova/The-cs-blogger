@@ -1,6 +1,6 @@
 <ul>
 	{% for news in site.posts limit: 3 %}
-		{% if news.category != include.type %}
+		{% if news.type == include.type %}
 			<li>	
 				<h4><a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a></h4>
 				<h5>{{news.meta}}</h5>
