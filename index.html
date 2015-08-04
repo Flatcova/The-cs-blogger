@@ -2,16 +2,13 @@
 layout: header
 ---
 
-<h4 class="titin">Welcome to The CS Blogger!!</h4>
+<h4 class="titin">Welcome to the CS Blogger page!!!</h4>
 
 {% include cards.html%}
 
-{% for news in site.posts limit: 3 %}
-		<!-- {% if news.category == include.category%} -->
-			<li>	
-				<h4><a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a></h4>
-				<h5>{{news.meta}}</h5>
-				<p>{{news.category}}</p>
-			</li>
-		<!-- {% endif %} -->
-{% endfor %}
+<p>Your have come to the right place to learn more about coding :)</p>
+
+<h3>Most recent post I have done</h3>
+
+{% include posts.html %}
+
