@@ -18,7 +18,7 @@
 
 
 <ul>
-	{% for news in site.posts limit: 1 %}
+	{% for news in site.posts %}
 	{% if include.category == "all" %}
 		{% for news in site.posts limit: 5 %}
 		<li>	
