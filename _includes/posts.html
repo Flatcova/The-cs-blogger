@@ -19,22 +19,22 @@
 
 <ul>
 	{% for news in site.posts %}
-	{% if include.category == "all" %}
-		{% for news in site.posts limit: 5 %}
-		<li>	
-			<h4><a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a></h4>
-			<h5>{{news.meta}}</h5>
-			<p>{{news.category}}</p>
-		</li>
-		{% endfor %}
-	{% elsif news.category == include.category %}
-		{% for news in site.posts %}
-		<li>	
-			<h4><a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a></h4>
-			<h5>{{news.meta}}</h5>
-			<p>{{news.category}}</p>
-		</li>
-		{% endfor %}
-	{% endif %}
+		{% if news.category == include.category %}
+			{% for news in site.posts %}
+			<li>	
+				<h4><a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a></h4>
+				<h5>{{news.meta}}</h5>
+				<p>{{news.category}}</p>
+			</li>
+			{% endfor %}
+		{% elsif include.category == "all" %}
+			{% for news in site.posts limit: 5 %}
+			<li>	
+				<h4><a href="{{site.baseurl}}{{news.url}}">{{news.title}}</a></h4>
+				<h5>{{news.meta}}</h5>
+				<p>{{news.category}}</p>
+			</li>
+			{% endfor %}
+		{% endif %}
 	{% endfor %}
 </ul>
