@@ -18,6 +18,7 @@
 
 
 <ul>
+	{% for news in site.posts limit: 1 %}
 	{% if include.category == "all" %}
 		{% for news in site.posts limit: 5 %}
 		<li>	
@@ -35,4 +36,5 @@
 		</li>
 		{% endfor %}
 	{% endif %}
+	{% endfor %}
 </ul>
