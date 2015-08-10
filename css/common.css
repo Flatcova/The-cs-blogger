@@ -39,15 +39,3 @@
 	text-align: center;
 	text-transform: uppercase;
 }
-
-.mdl-cell {
-  background: #bdbdbd;
-  padding: 30px 0;
-  text-align: center;
-  color: #424242;
-  font-weight: bold;
-}
-
-.mdl-grid {
-  padding: 0;
-}
