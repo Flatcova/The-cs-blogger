@@ -56,19 +56,19 @@
     color: #fff;
     height: 176px;
     background: url('../img/js.png') center / cover;
-    background-color: #b22222;
+    background-color: #ffd700;
 }
 .html > .demo-card-wide .mdl-card__title{
     color: #fff;
     height: 176px;
     background: url('../img/ht5.png') center / cover;
-    background-color: #b22222;
+    background-color: #FF8C00;
 }
 .css > .demo-card-wide .mdl-card__title{
     color: #fff;
     height: 176px;
     background: url('../img/css3.png') center / cover;
-    background-color: #b22222;
+    background-color: #6495ED;
 }
 .demo-card-wide > .mdl-card__menu {
     color: #fff;
