@@ -1,32 +1,20 @@
-<!-- <style>
-  .mdl-card__media {
-    background-color: #E6E6FA;
-  }
-  .mdl-card {
-  	width: 256px;
-  	margin-right: none;
-  }
-  .mdl-card__actions {
-    height: 52px;
-    padding: 16px;
-    background: rgba(0, 0, 0, 0.2);
-    color: #fff;
-    font-size: 14px;
-    font-weight: 500;
-    text-align: center;
-  }
-</style> -->
 <style>
 .mdl-card {
     width: auto;
     margin: 0 auto;
   }
-.demo-card-wide > .mdl-card__title {
+.demo-card-wide > .mdl-card__title > .ajs {
     color: #fff;
     height: 176px;
     background: url('{{site.baseurl}}/img/anjs.png') center / cover;
     background-color: #b22222;
   }
+.demo-card-wide > .mdl-card__title > .js {
+    color: #fff;
+    height: 176px;
+    background: url('{{site.baseurl}}/img/js.png') center / cover;
+    background-color: #b22222;
+}
 .demo-card-wide > .mdl-card__menu {
     color: #fff;
   }
@@ -35,7 +23,7 @@
 <div class="mdl-grid">
 	<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--5-col-phone">
   		<div class="mdl-card mdl-shadow--4dp demo-card-wide">
-			<div class="mdl-card__title">
+			<div class="mdl-card__title ajs">
 				<h2 class="mdl-card__title-text">Angular JS</h2>
 			</div>
 			<div class="mdl-card__supporting-text">
@@ -46,16 +34,17 @@
       		</div>
 		</div>
 	</div>
-	<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--3-col-phone">
-  		<div class="mdl-card mdl-shadow--2dp">
-  			<a class="mdl-navigation__link" href="{{site.baseurl}}/JS.html">
-				<div class="mdl-card__media">
-					<img src="{{site.baseurl}}/img/js.png" width="256px" height="256px">
-				</div>
-				<div class="mdl-card__actions">
-					<span class="mdl-card-imagge__filename">JavaScript</span>
-				</div>
-			</a>
+	<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--5-col-phone">
+  		<div class="mdl-card mdl-shadow--4dp demo-card-wide">
+			<div class="mdl-card__title js">
+				<h2 class="mdl-card__title-text">JavaScript</h2>
+			</div>
+			<div class="mdl-card__supporting-text">
+				Welcome to one of the most important lenguages on computer science let's start the learning right here
+			</div>
+			<div class="mdl-card__actions mdl-card--border">
+        		<a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" href="{{site.baseurl}}/JS.html">Get Started</a>
+      		</div>
 		</div>
 	</div>
 	<div class="mdl-cell mdl-cell--3-col mdl-cell--4-col-tablet mdl-cell--3-col-phone">
