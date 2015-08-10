@@ -55,19 +55,19 @@
 .java > .demo-card-wide .mdl-card__title{
     color: #fff;
     height: 176px;
-    background: url('{{site.baseurl}}/img/js.png') center / cover;
+    background: url('../img/js.png') center / cover;
     background-color: #b22222;
 }
 .html > .demo-card-wide .mdl-card__title{
     color: #fff;
     height: 176px;
-    background: url('{{site.baseurl}}/img/ht5.png') center / cover;
+    background: url('../img/ht5.png') center / cover;
     background-color: #b22222;
 }
 .css > .demo-card-wide .mdl-card__title{
     color: #fff;
     height: 176px;
-    background: url('{{site.baseurl}}/img/css3.png') center / cover;
+    background: url('../img/css3.png') center / cover;
     background-color: #b22222;
 }
 .demo-card-wide > .mdl-card__menu {
