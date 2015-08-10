@@ -39,3 +39,37 @@
 	text-align: center;
 	text-transform: uppercase;
 }
+
+/* THE STYLE FOR THE CARDS ON THE INDEX */
+
+.mdl-card {
+    width: auto;
+    margin: 0 auto;
+  }
+.angular > .demo-card-wide .mdl-card__title{
+    color: #fff;
+    height: 176px;
+    background: url('{{site.baseurl}}/img/anjs.png') center / cover;
+    background-color: #b22222;
+  }
+.java > .demo-card-wide .mdl-card__title{
+    color: #fff;
+    height: 176px;
+    background: url('{{site.baseurl}}/img/js.png') center / cover;
+    background-color: #b22222;
+}
+.html > .demo-card-wide .mdl-card__title{
+    color: #fff;
+    height: 176px;
+    background: url('{{site.baseurl}}/img/ht5.png') center / cover;
+    background-color: #b22222;
+}
+.css > .demo-card-wide .mdl-card__title{
+    color: #fff;
+    height: 176px;
+    background: url('{{site.baseurl}}/img/css3.png') center / cover;
+    background-color: #b22222;
+}
+.demo-card-wide > .mdl-card__menu {
+    color: #fff;
+  }
