@@ -46,6 +46,11 @@
     width: auto;
     margin: 0 auto;
   }
+
+ .mdl-card .mdl-button{
+ 	position: center;
+ }
+ 
 .angular > .demo-card-wide .mdl-card__title{
     color: #fff;
     height: 176px;
