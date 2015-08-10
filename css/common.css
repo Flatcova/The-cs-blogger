@@ -40,7 +40,7 @@
 	text-transform: uppercase;
 }
 
-/*.mdl-cell {
+.mdl-cell {
   background: #bdbdbd;
   padding: 30px 0;
   text-align: center;
@@ -50,4 +50,4 @@
 
 .mdl-grid {
   padding: 0;
-}*/
+}
