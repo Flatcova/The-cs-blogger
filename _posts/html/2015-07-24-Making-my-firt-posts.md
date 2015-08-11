@@ -4,6 +4,7 @@ title: Making my first posts
 meta: Showing how I start from bottom to create this awesome blog.
 source: http://www.flatcova.gituhb.io/The-cs-blogger/news.html
 category: html 5
+cat: html 5
 ---
 
 FASGASGASGDASDGASGDASDGFuture Mars explorers may be able to get all the water they need out of the red dirt beneath their boots, a new study suggests.
