@@ -25,10 +25,10 @@ layout: header
 	{% endif %}
 {% endif %} -->
 <!-- Third and final option -->
-{% if page.category == include.category %}
-	{% if page.next and page.next.categories contains include.category %}
+{% if include.category == page.category %}
+	{% if page.next and page.next.categories contains page.category %}
 		<a href="{{site.baseurl}}{{page.next.url}}">Next Post</a>
-	{% else if page.previous and page.previous.categories contains include.category %}
+	{% else if page.previous and page.previous.categories contains page.category %}
 		<a href="{{site.baseurl}}{{page.previous.url}}">Previous Post</a>
 	{% endif %}
 {% endif %}
