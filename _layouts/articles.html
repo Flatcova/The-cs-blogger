@@ -17,11 +17,11 @@ layout: header
 
 <!-- SECOND OPTION -->
 
-{% if page.next and page.next.categories contains "AJS" %}
+{% if page.next and page.next.categories contains category==include.category %}
 
   <a href="{{site.baseurl}}{{ page.next.url }}">Next Post</a>
 {% endif %}
-{% if page.previous and page.previous.categories contains "AJS" %}
+{% if page.previous and page.previous.categories contains include.category %}
 
   <a href="{{site.baseurl}}{{ page.previous.url }}">Previous Post</a>
 
