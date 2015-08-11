@@ -4,11 +4,11 @@
 	{% if page.next and page.next.categories contains "ajs" %}
 		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
 	{% elsif page.next and page.next.categories contains "script" %}
-		<a rel="prev" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
+		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
 	{% elsif page.next and page.next.categories contains "html 5" %}
-		<a rel="prev" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
+		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
 	{% elsif page.next and page.next.categories contains "css 3" %}
-		<a rel="prev" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
+		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
 	{% endif %}
 {% endif %}
 
