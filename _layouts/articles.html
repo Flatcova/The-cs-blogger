@@ -17,10 +17,10 @@ layout: header
 
 <!-- SECOND OPTION -->
 {% if page.category == "AJS" %}
-	{% if page.previous.category contains "AJS" %}
+	{% if page.previous contains "ajs" %}
 		<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
 	{% endif %}
 	{% if page.next %}
-		<a rel="next" href="{{site.baseurl}}{{page.next.category}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
+		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
 	{% endif %}
 {% endif %}
