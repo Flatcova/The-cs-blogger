@@ -24,3 +24,11 @@ layout: header
 		<a rel="next" href="{{site.baseurl}}/{{page.next.post}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
 	{% endif %}
 {% endif %}
+
+{% if page.category == "ajs" %}
+	{% if page.next and page.next.categories contains "ajs" %}
+		<a href="{{ page.next.url }}">Next Post</a>
+	{% else if page.previous and page.previous.categories contains "ajs" %}
+		<a href="{{ page.previous.url }}">Previous Post</a>
+	{% endif %}
+{% endif %}
