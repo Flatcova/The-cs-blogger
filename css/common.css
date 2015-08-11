@@ -8,6 +8,11 @@
   color: white;
 }
 
+.demo-nav > .demo-nav__button{
+    color: white;
+    text-decoration: none; 
+}
+
 #logo{
 	text-align: center;
 	text-decoration: none;
