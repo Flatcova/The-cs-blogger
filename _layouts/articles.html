@@ -16,11 +16,11 @@ layout: header
 {% endif %} -->
 
 <!-- SECOND OPTION -->
-{% if page.category == "AJS" %}
-	{% if page.previous %}
+{% if page.category == include.category %}
+	{% if page.previous and page.previous.categories contains include.category %}
 		<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
 	{% endif %}
-	{% if page.next %}
+	{% if page.next and page.next.categories contains include.category %}
 		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
 	{% endif %}
 {% endif %}
