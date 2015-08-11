@@ -1,7 +1,7 @@
-{% if page.category == include.page.cat %}
-	{% if page.next and page.next.categories contains page.cat %}
+{% if page.category == include.cate %}
+	{% if page.next and page.next.categories contains 'cate' %}
 		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
-	{% else if page.previous and page.previous.categories contains page.cat %}
+	{% else if page.previous and page.previous.categories contains 'cate' %}
 		<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
 	{% endif %}
 {% endif %}
