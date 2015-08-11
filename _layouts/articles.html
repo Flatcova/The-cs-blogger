@@ -8,10 +8,12 @@ layout: header
 
 <p>{{page.source}}</p>
 
+<p>{{page.category}}</p>
+
 {% if page.category == "ajs" %}
 	{% include button.html cate="ajs" %}
-{% elsif page.category == "javascript" %}
-	{% include button.html cate="javascript" %}
+{% elsif page.category == "script" %}
+	{% include button.html cate="script" %}
 {% elsif page.category == "html 5" %}
 	{% include button.html cate="html 5" %}
 {% elsif page.category == "css 3" %}
