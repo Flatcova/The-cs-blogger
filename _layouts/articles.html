@@ -18,7 +18,7 @@ layout: header
 <!-- SECOND OPTION -->
 {% if page.category == "ajs" %}
 	{% if page.previous %}
-		<a rel="prev" href="{{site.baseurl}}/{{page.category}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
+		<a rel="prev" href="{{site.baseurl}}/{{page.category}}/{{site.next.post}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
 	{% endif %}
 	{% if page.next %}
 		<a rel="next" href="{{site.baseurl}}/{{page.next.post}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
