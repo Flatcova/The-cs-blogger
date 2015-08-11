@@ -6,10 +6,10 @@
 	{% elsif page.previous and page.previous.categories contains "ajs" %}
 		<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
 	{% endif %}
-{% elsif if page.category == "javascript" %}
-	{% if page.next and page.next.categories contains "javascript" %}
+{% elsif if page.category == "script" %}
+	{% if page.next and page.next.categories contains "script" %}
 		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
-	{% elsif page.previous and page.previous.categories contains "javascript" %}
+	{% elsif page.previous and page.previous.categories contains "script" %}
 		<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
 	{% endif %}
 {% elsif if page.category == "html 5" %}
