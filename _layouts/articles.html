@@ -16,19 +16,19 @@ layout: header
 {% endif %} -->
 
 <!-- SECOND OPTION -->
-{% if page.category == "ajs" %}
+<!-- {% if page.category == "ajs" %}
 	{% if page.previous contains "ajs"%}
 		<a rel="prev" href="{{site.baseurl}}{{site.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
 	{% endif %}
 	{% if page.next %}
 		<a rel="next" href="{{site.baseurl}}/{{page.next.post}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
 	{% endif %}
-{% endif %}
-
+{% endif %} -->
+<!-- Third and final option -->
 {% if page.category == "ajs" %}
 	{% if page.next and page.next.categories contains "ajs" %}
-		<a href="{{ page.next.url }}">Next Post</a>
+		<a href="{{site.baseurl}}{{page.next.url}}">Next Post</a>
 	{% else if page.previous and page.previous.categories contains "ajs" %}
-		<a href="{{ page.previous.url }}">Previous Post</a>
+		<a href="{{site.baseurl}}{{page.previous.url}}">Previous Post</a>
 	{% endif %}
 {% endif %}
