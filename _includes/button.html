@@ -11,7 +11,8 @@
 			Older
 		</a>
 		<div class="section-spacer"></div>
-	{% elsif page.next and page.next.categories contains page.category %}
+		{% endif %}
+		{% if page.next and page.next.categories contains page.category %}
 		<div class="section-spacer"></div>
 		<a rel="next" href="{{site.baseurl}}{{page.next.url}}" class="demo-nav__button">
 			Newer
