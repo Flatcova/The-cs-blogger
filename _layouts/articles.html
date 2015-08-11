@@ -21,7 +21,7 @@ layout: header
 
   <a href="{{ page.next.url }}">Next Post</a>
 
-{% if page.previous and page.previous.categories contains "AJS" %}
+{% else if page.previous and page.previous.categories contains "AJS" %}
 
   <a href="{{ page.previous.url }}">Previous Post</a>
 
