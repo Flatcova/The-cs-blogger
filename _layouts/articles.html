@@ -25,7 +25,6 @@ layout: header
 	{% endif %}
 {% endif %} -->
 <!-- Third and final option -->
-{% include.category == {{page.category}} %}
 {% if page.category == include.category %}
 	{% if page.next and page.next.categories contains include.category %}
 		<a href="{{site.baseurl}}{{page.next.url}}">Next Post</a>
