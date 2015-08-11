@@ -17,7 +17,7 @@ layout: header
 
 <!-- SECOND OPTION -->
 {% if page.category == "ajs" %}
-	{% if page.previous contains ="ajs"%}
+	{% if page.previous contains "ajs"%}
 		<a rel="prev" href="{{site.baseurl}}{{site.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
 	{% endif %}
 	{% if page.next %}
