@@ -1,26 +1,26 @@
-<!-- old way -->
+<!-- next button -->
 
-{% if page.category == "ajs" %}
+{% if page.category == include.cate %}
 	{% if page.next and page.next.categories contains "ajs" %}
 		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
-	{% elsif page.previous and page.previous.categories contains "ajs" %}
-		<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
+	{% elsif page.next and page.next.categories contains "script" %}
+		<a rel="prev" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
+	{% elsif page.next and page.next.categories contains "html 5" %}
+		<a rel="prev" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
+	{% elsif page.next and page.next.categories contains "css 3" %}
+		<a rel="prev" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
 	{% endif %}
-{% elsif if page.category == "script" %}
-	{% if page.next and page.next.categories contains "script" %}
-		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
+{% endif %}
+
+<!-- back button -->
+
+{% if page.category == include.cate %}
+	{% if page.previous and page.previous.categories contains "ajs" %}
+		<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
 	{% elsif page.previous and page.previous.categories contains "script" %}
 		<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
-	{% endif %}
-{% elsif if page.category == "html 5" %}
-	{% if page.next and page.next.categories contains "html 5" %}
-		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
 	{% elsif page.previous and page.previous.categories contains "html 5" %}
 		<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
-	{% endif %}
-{% elsif if page.category == "css 3" %}
-	{% if page.next and page.next.categories contains "css 3" %}
-		<a rel="next" href="{{site.baseurl}}{{page.next.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i>&rarr; next</i></button></a>
 	{% elsif page.previous and page.previous.categories contains "css 3" %}
 		<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}"><button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored"><i> Back &larr;</i></button></a>
 	{% endif %}
