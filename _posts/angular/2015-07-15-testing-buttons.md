@@ -1,0 +1,22 @@
+---
+layout: articles
+title: testing buttons
+meta: Sog.
+source: http://www.flatcova.gituhb.io/The-cs-blogger/news.html
+category: ajs
+---
+
+iaosdifnaosdinfoasimdfaisdfpiansdiuncsiubciubub
+sidubasodicoaisndociansdoicnaosdincoad
+asodicnaoisdncoaisndocianosdicnosidncoainsdoiancsodincaosidncoaisndcoiansdocinasd
+casodicnaoisdncaoisndcoaisndocklknvowowiernfokwenrofwner
+fwerofiwneroimrelvknsdkjvnsjdbvodv
+
+
+voisdnovisndfoivmsdlfkvnsdfovsndokcnzkxnoinodinvwlwkfi
+
+asdasffoaisndgoiasndg
+sdgoinaosdignoaisdngoiansdipgnqiernpgiqjenrgiquerwgiuberpigwbeprg
+werogiwneroignwoierngoiwneorngpw
+ergwoeirngoiwenrgowineorpqoemwfkqneowifnqoekflasdoinalsdinoinoinq
+erfoiwneroigwoiernogiwne
