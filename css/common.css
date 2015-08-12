@@ -58,15 +58,10 @@
 	text-transform: uppercase;
 }
 /*Style for the cards on category*/
-
-.demo-card-square.mdl-card {
-            width: 320px;
-            height: 320px;
-          }
-          .demo-card-square > .mdl-card__title {
-            color: #fff;
-            background-color: #46B6AC;
-          }
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background-color: #46B6AC;
+}
 
 /* THE STYLE FOR THE CARDS ON THE INDEX */
 
