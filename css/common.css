@@ -69,7 +69,7 @@
 
 /* THE STYLE FOR THE CARDS ON THE INDEX */
 
-.cardmdl-in > .mdl-card {
+.mdl-card {
     width: auto;
     margin: 0 auto;
   }
