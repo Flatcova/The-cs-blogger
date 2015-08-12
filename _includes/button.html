@@ -15,6 +15,7 @@
 		{% endif %}
 		{% if page.next and page.next.categories contains page.category %}
 		<div class="mdl-cell mdl-cell--6-col">
+			<div class="section-spacer"></div>
 			<a rel="next" href="{{site.baseurl}}{{page.next.url}}" class="demo-nav__button">
 				Newer
 				<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900"role="presentation" data-upgraded=",MaterialButton,MaterialRipple">
