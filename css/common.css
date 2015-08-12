@@ -63,13 +63,13 @@
   background-color: #46B6AC;
 }
 
-.cardmdl > .mdl-card{
+.mdl-card{
   margin: 8px auto;
 }
 
 /* THE STYLE FOR THE CARDS ON THE INDEX */
 
-.mdl-card {
+.cardmdl > .mdl-card {
     width: auto;
     margin: 0 auto;
   }
