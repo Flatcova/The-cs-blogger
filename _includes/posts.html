@@ -17,10 +17,7 @@
 				</div>
 				<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--5-col-phone"></div>
 			</div>
-	{% endif %}
-{% endfor %}
-
-{% if news.category == "ajs" %}
+			{% if news.category == "ajs" %}
  	<script>
  		$(".mdl-grid .mdl-cell--8-col .demo-card-wide .mdl-card__title").addClass("title1")
  	</script>
@@ -28,3 +25,6 @@
 {% elsif news.category == "script" %}
  	<p>{{news.category}}</p>
 {% endif %}
+	{% endif %}
+{% endfor %}
+
