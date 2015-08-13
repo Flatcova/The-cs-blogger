@@ -66,25 +66,25 @@
 /* THE STYLE FOR THE CARDS ON THE INDEX */
 /*Most recent cards*/
 
-.title4 {
+.macumba {
   color: #fff;
   height: 176px;
   background: url('../img/css3.png') center / cover;
   background-color: #6495ED;
 }
-.title3 {
+.tetoi {
   color: #fff;
   height: 176px;
   background: url('../img/ht5.png') center / cover;
   background-color: #FF8C00;
 }
-.title2 {
+.ioqe {
   color: #fff;
   height: 176px;
   background: url('../img/js.png') center / cover;
   background-color: #ffd700;
 }
-.title1 {
+.poavm {
   color: #fff;
   height: 176px;
   background: url('../img/anjs.png') center / cover;
