@@ -71,6 +71,12 @@
   background: url('../img/anjs.png') center / cover;
   background-color: #b22222;
 }
+.title2 {
+  color: #fff;
+  height: 176px;
+  background: url('../img/js.png') center / cover;
+  background-color: #ffd700;
+}
 
 .mdl-card {
     width: auto;
