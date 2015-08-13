@@ -65,17 +65,12 @@
 
 /* THE STYLE FOR THE CARDS ON THE INDEX */
 /*Most recent cards*/
-.title1 {
+
+.title4 {
   color: #fff;
   height: 176px;
-  background: url('../img/anjs.png') center / cover;
-  background-color: #b22222;
-}
-.title2 {
-  color: #fff;
-  height: 176px;
-  background: url('../img/js.png') center / cover;
-  background-color: #ffd700;
+  background: url('../img/css3.png') center / cover;
+  background-color: #6495ED;
 }
 .title3 {
   color: #fff;
@@ -83,12 +78,19 @@
   background: url('../img/ht5.png') center / cover;
   background-color: #FF8C00;
 }
-.title4 {
+.title2 {
   color: #fff;
   height: 176px;
-  background: url('../img/css3.png') center / cover;
-  background-color: #6495ED;
+  background: url('../img/js.png') center / cover;
+  background-color: #ffd700;
 }
+.title1 {
+  color: #fff;
+  height: 176px;
+  background: url('../img/anjs.png') center / cover;
+  background-color: #b22222;
+}
+
 /*Upper cards*/
 .mdl-card {
     width: auto;
