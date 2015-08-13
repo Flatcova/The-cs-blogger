@@ -19,3 +19,13 @@
 			</div>
 	{% endif %}
 {% endfor %}
+
+{% if site.category == "ajs" %}
+	<style>
+		.demo-card-wide > .mdl-card__title {
+    		color: #fff;
+    		height: 176px;
+   			background: url('../assets/demos/welcome_card.jpg') center / cover;
+  		}
+	</style>
+{% endif %}
