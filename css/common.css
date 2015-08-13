@@ -102,12 +102,6 @@
     background: url('../img/anjs.png') center / cover;
     background-color: #b22222;
   }
-.java > .demo-card-wide .mdl-card__title{
-    color: #fff;
-    height: 176px;
-    background: url('../img/js.png') center / cover;
-    background-color: #ffd700;
-}
 .html > .demo-card-wide .mdl-card__title{
     color: #fff;
     height: 176px;
@@ -119,6 +113,12 @@
     height: 176px;
     background: url('../img/css3.png') center / cover;
     background-color: #6495ED;
+}
+.java > .demo-card-wide .mdl-card__title{
+    color: #fff;
+    height: 176px;
+    background: url('../img/js.png') center / cover;
+    background-color: #ffd700;
 }
 .demo-card-wide > .mdl-card__menu {
     color: #fff;
