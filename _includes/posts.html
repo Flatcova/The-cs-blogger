@@ -4,24 +4,11 @@
 				<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--5-col-phone"></div>
 				<div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--12-col-phone">
 					{% if news.category == "ajs" %}
-						<style>
-							.demo-card-wide > .mdl-card__title {
-    						color: #fff;
-   							height: 176px;
-   							background: url('{{site.baseurl}}/img/anjs.png') center / cover;
-    						background-color: #b22222;
- 							}
- 						</style>
+ 						<script>
+ 							$(".demo-card-wide .mdl-card__title").addClass("title1")
+ 						</script>
  						<p>{{news.category}}</p>
 					{% elsif news.category == "script" %}
-						<style>
-							.demo-card-wide > .mdl-card__title {
-    						color: #fff;
-   							height: 176px;
-   							background: url('{{site.baseurl}}/img/js.png') center / cover;
-    						background-color: #ffd700;
- 							}
- 						</style>
  						<p>{{news.category}}</p>
 					{% endif %}
 					<div class="mdl-card mdl-shadow--4dp demo-card-wide">

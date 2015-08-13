@@ -62,12 +62,15 @@
   color: #fff;
   background-color: #46B6AC;
 }
-/*
-.cardmdl-cat > .mdl-card{
-  margin: 8px auto;
-}*/
 
 /* THE STYLE FOR THE CARDS ON THE INDEX */
+
+.title1 {
+  color: #fff;
+  height: 176px;
+  background: url('{{site.baseurl}}/img/anjs.png') center / cover;
+  background-color: #b22222;
+}
 
 .mdl-card {
     width: auto;
