@@ -20,22 +20,26 @@
 			{% if news.category == "ajs" %}
  				<script>
  					$(".mdl-grid .mdl-cell--12-col-phone").addClass("angular");
+ 					$(".angular")stop();
  				</script>
  				<p>{{news.category}}</p>
  			{% endif %}
 			{% if news.category == "script" %}
 				<script>
 					$(".mdl-grid .mdl-cell--12-col-phone").addClass("java");
+					$(".java")stop();
  				</script>
  			{% endif %}
  			{% if news.category == "html 5" %}
 				<script>
  					$(".mdl-grid .mdl-cell--12-col-phone").addClass("html");
+ 					$(".html")stop();
  				</script>
  			{% endif %}
 			{% if news.category == "css 3" %}
 				<script>
  					$(".mdl-grid .mdl-cell--12-col-phone").addClass("css");
+ 					$(".css")stop();
  				</script>
 			{% endif %}
 	{% endif %}
