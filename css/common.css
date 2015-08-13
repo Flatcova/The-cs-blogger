@@ -64,34 +64,6 @@
 }
 
 /* THE STYLE FOR THE CARDS ON THE INDEX */
-/*Most recent cards*/
-
-.macumba {
-  color: #fff;
-  height: 176px;
-  background: url('../img/css3.png') center / cover;
-  background-color: #6495ED;
-}
-.tetoi {
-  color: #fff;
-  height: 176px;
-  background: url('../img/ht5.png') center / cover;
-  background-color: #FF8C00;
-}
-.ioqe {
-  color: #fff;
-  height: 176px;
-  background: url('../img/js.png') center / cover;
-  background-color: #ffd700;
-}
-.poavm {
-  color: #fff;
-  height: 176px;
-  background: url('../img/anjs.png') center / cover;
-  background-color: #b22222;
-}
-
-/*Upper cards*/
 .mdl-card {
     width: auto;
     margin: 0 auto;
