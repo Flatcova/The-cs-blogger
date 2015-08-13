@@ -18,16 +18,22 @@
 				<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--5-col-phone"></div>
 			</div>
 			{% if news.category == "ajs" %}
- 	<script>
- 		$(".mdl-grid .mdl-cell--8-col .demo-card-wide .mdl-card__title").addClass("title1")
- 	</script>
- 	<p>{{news.category}}</p>
-{% elsif news.category == "script" %}
-	<script>
- 		$(".mdl-grid .mdl-cell--8-col .demo-card-wide .mdl-card__title").addClass("title2")
- 	</script>
- 	<p>{{news.category}}</p>
-{% endif %}
+ 				<script>
+ 					$(".mdl-grid .mdl-cell--8-col .demo-card-wide .mdl-card__title").addClass("title1")
+ 				</script>
+			{% elsif news.category == "script" %}
+				<script>
+ 					$(".mdl-grid .mdl-cell--8-col .demo-card-wide .mdl-card__title").addClass("title2")
+ 				</script>
+ 			{% elsif news.category == "html 5" %}
+				<script>
+ 					$(".mdl-grid .mdl-cell--8-col .demo-card-wide .mdl-card__title").addClass("title3")
+ 				</script>
+			{% elsif news.category == "css 3" %}
+				<script>
+ 					$(".mdl-grid .mdl-cell--8-col .demo-card-wide .mdl-card__title").addClass("title4")
+ 				</script>
+			{% endif %}
 	{% endif %}
 {% endfor %}
 
