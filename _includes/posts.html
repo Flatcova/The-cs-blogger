@@ -4,16 +4,16 @@
 				<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--5-col-phone"></div>
 				<div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--12-col-phone">
 					{% for publi in site.posts %}
-					{% if publi.category == "ajs" %}
+						{% if publi.category == "ajs" %}
 						<style>
 							.demo-card-wide > .mdl-card__title {
     						color: #fff;
    							height: 176px;
-   							background: url('../img/anjs.png') center / cover;
+   							background: url('{{site.baseurl}}/img/anjs.png') center / cover;
     						background-color: #b22222;
  							}
  						</style>
-					{% endif %}
+						{% endif %}
 					{% endfor %}
 					<div class="mdl-card mdl-shadow--4dp demo-card-wide">
 						<div class="mdl-card__title" >
