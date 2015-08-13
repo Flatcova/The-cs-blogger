@@ -1,9 +1,11 @@
 {% for news in site.posts limit: 5 %} 
 	{% if include.category == "all" %}
-
+			<div class="mdl-grid">
+				<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--5-col-phone"></div>
+				<div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--12-col-phone">
 			{% if news.category == "ajs" %}
 				<style>
-					.mdl-grid .mdl-cell > .demo-card-wide > .mdl-card__title {
+					.demo-card-wide > .mdl-card__title {
     				color: #fff;
    					height: 176px;
    					background: url('{{site.baseurl}}/img/anjs.png') center / cover;
@@ -12,10 +14,6 @@
  				</style>
  				<p>{{news.category}}</p>
 			{% endif %}
-
-			<div class="mdl-grid">
-				<div class="mdl-cell mdl-cell--2-col mdl-cell--2-col-tablet mdl-cell--5-col-phone"></div>
-				<div class="mdl-cell mdl-cell--8-col mdl-cell--8-col-tablet mdl-cell--12-col-phone">
 					<div class="mdl-card mdl-shadow--4dp demo-card-wide">
 						<div class="mdl-card__title" >
 							<h2 class="mdl-card__title-text">{{news.title}}</h2>
