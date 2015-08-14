@@ -71,8 +71,14 @@
 
 /*Style for the cards on category*/
 .demo-card-square > .mdl-card__title {
-  color: #fff;
-  background-color: #5F9EA0;
+  background-color: #778899;
+  color: #FFFAF0;
+  text-transform: uppercase;
+}
+.demo-card-square > .mdl-card__supporting-text{
+    width: inherit;
+    text-align: justify;
+    background-color: #C0C0C0;
 }
 
 /*Style on most recent posts*/
