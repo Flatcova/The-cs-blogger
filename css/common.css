@@ -1,6 +1,6 @@
 .layout-transparent {
-  background-color: #B0C4DE;
-  /*url('{{site.baseurl}}/img/bg2.jpg') center / cover*/
+  /*background-color: #B0C4DE;*/
+  background: url('{{site.baseurl}}/img/bg2.jpg') center / cover;
 }
 .layout-transparent .mdl-layout__header,
 .layout-transparent .mdl-layout__drawer-button {
