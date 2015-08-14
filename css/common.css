@@ -75,12 +75,12 @@
 
 /*Style on most recent posts*/
 .MR > .demo-card-wide .mdl-card__title{
-  color: #fafafa;
   background-color: #EEE8AA;
-  text-align: center; 
+  color: rgba(0,0,0,.54);
+  text-transform: uppercase;
 }
 .MR > .demo-card-wide .mdl-card__supporting-text{
-    width: 100%;
+    width: 90%;
     text-align: justify;
     background-color: #FFF8DC;
 }
@@ -91,6 +91,9 @@
     width: auto;
     margin: 0 auto;
   }
+.mdl-card-wide{
+  text-align: center;
+}
 .angular > .demo-card-wide .mdl-card__title{
     color: #fff;
     height: 176px;
@@ -114,7 +117,4 @@
     height: 176px;
     background: url('../img/css3.png') center / cover;
     background-color: #6495ED;
-}
-.demo-card-wide > .mdl-card__menu {
-    color: #fff;
-  }
+} 
