@@ -80,7 +80,7 @@
   text-transform: uppercase;
 }
 .MR > .demo-card-wide .mdl-card__supporting-text{
-    width: 96%;
+    width: inherit;
     text-align: justify;
     background-color: #FFF8DC;
 }
