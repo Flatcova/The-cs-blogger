@@ -70,8 +70,21 @@
 /*Style for the cards on category*/
 .demo-card-square > .mdl-card__title {
   color: #fff;
-  background-color: #46B6AC;
+  background-color: #5F9EA0;
 }
+
+/*Style on most recent posts*/
+.MR > .demo-card-wide .mdl-card__title{
+  color: #fafafa;
+  background-color: #EEE8AA;
+  text-align: center; 
+}
+.MR > .demo-card-wide .mdl-card__supporting-text{
+    width: 100%;
+    text-align: justify;
+    background-color: #FFF8DC;
+}
+
 
 /* THE STYLE FOR THE CARDS ON THE INDEX */
 .mdl-card {
