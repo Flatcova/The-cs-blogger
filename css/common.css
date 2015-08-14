@@ -77,14 +77,14 @@
 
 /*Style on most recent posts*/
 .MR > .demo-card-wide .mdl-card__title{
-  background-color: #EEE8AA;
-  color: rgba(0,0,0,.54);
+  background-color: #778899;
+  color: #FFFAF0;
   text-transform: uppercase;
 }
 .MR > .demo-card-wide .mdl-card__supporting-text{
     width: inherit;
     text-align: justify;
-    background-color: #FFF8DC;
+    background-color: #C0C0C0;
 }
 
 /* THE STYLE FOR THE CARDS ON THE INDEX */
