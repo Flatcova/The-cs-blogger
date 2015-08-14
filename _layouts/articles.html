@@ -1,16 +1,9 @@
 ---
 layout: header
 ---
-
-<h1 id="title">{{page.title}}</h1>
-
-<h5>{{content}}</h5>
-
-<p>{{page.source}}</p>
-
-<h1>{{page.category}}</h1>
-
-<div class="demo-blog__posts mdl-grid">
+<div class="mdl-grid">
+	<div class="mdl-cell mdl-cell--2-col"></div>
+		<div class="demo-blog__posts mdl-grid">
           <div class="mdl-card mdl-shadow--4dp mdl-cell mdl-cell--12-col">
             <div class="mdl-card__media mdl-color-text--grey-50">
               <h3>{{page.title}}</h3>
@@ -27,6 +20,7 @@ layout: header
               </p>
             </div>
           </div>
-
           {% include button.html%}
         </div>
+	<div class="mdl-cell mdl-cell--2-col"></div>
+</div>
