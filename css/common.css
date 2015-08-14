@@ -52,6 +52,11 @@
 .nav-top{
 	font-size: 1.5rem;
 }
+.drawer-separator{
+  height: 1px;
+  background-color: #dcdcdc;
+  margin: 8px 0;
+}
 
 .titin{
 	text-align: center;
