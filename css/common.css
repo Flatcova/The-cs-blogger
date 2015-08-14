@@ -59,10 +59,10 @@
 }
 
 /*Style for the blog-posts*/
-.demo-blog__posts > .mdl-card__supporting-text{
+.demo-blog__posts .mdl-card > .mdl-card__supporting-text{
   text-align:justify; 
 }
-.demo-blog__posts > .mdl-card__media{
+.demo-blog__posts .mdl-card > .mdl-card__media{
   text-align: center;
   text-transform: uppercase;
 }
