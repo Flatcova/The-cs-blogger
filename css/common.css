@@ -1,9 +1,9 @@
-.layout-transparent {
+.mdl-layout--fixed-header {
   /*background-color: #B0C4DE;*/
   background: url('../img/bg1.jpg') center / cover;
 }
-.layout-transparent .mdl-layout__header,
-.layout-transparent .mdl-layout__drawer-button {
+.mdl-layout--fixed-header .mdl-layout__header,
+.mdl-layout--fixed-header .mdl-layout__drawer-button {
   /* This background is dark, so we set text to white. Use 87% black instead if your background is light. */
   color: white;
 }
