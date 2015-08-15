@@ -9,6 +9,13 @@
     	<a class="mdl-navigation__link" href="{{site.baseurl}}/JS.html">Java Script</a>
     	<a class="mdl-navigation__link" href="{{site.baseurl}}/#">Python</a>
     	<div class="drawer-separator"></div>
+    	<script>
+			$(document).ready(function(){
+    			$("#sub-men").click(function(){
+      			  	$("#sub-con").slideToggle("slow");
+    			});
+			});
+		</script>
     	<span class="mdl-navigation__link" id="sub-men" href="">Categories
 			<div id="sub-con">
 				<nav class="mdl-navigation">
@@ -23,10 +30,3 @@
     </nav>
 </div>
 
-<script>
-	$(document).ready(function(){
-    	$("#sub-men").click(function(){
-        	$("#sub-con").slideToggle("slow");
-    	});
-	});
-</script>
