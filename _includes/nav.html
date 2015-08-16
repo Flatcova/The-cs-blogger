@@ -11,8 +11,11 @@
     			<a class="mdl-navigation__link" href="{{site.baseurl}}/CSS.html">CSS</a>
     			<a class="mdl-navigation__link" href="{{site.baseurl}}/JS.html">Java Script</a>
     			<a class="mdl-navigation__link" href="{{site.baseurl}}/#">Python</a>
-                {% for categ in site.posts %}
-                    <a class="mdl-navigation__link" href="{{site.baseurl}}/#">{{ categ.category | first }}</a>
+                <!-- {% for categ in site.posts %}
+                    <a class="mdl-navigation__link" href="{{site.baseurl}}/#">{{ categ | first }}</a>
+                {% endfor %} -->
+                {% for categ in site.posts %} 
+                    <li><a href="{{site.baseurl}}{{categ | first }}" title="{{categ | first}}">{{ categ | first }}</a></li>
                 {% endfor %}
 			</nav>
 		</div>
