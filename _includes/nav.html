@@ -11,6 +11,9 @@
     			<a class="mdl-navigation__link" href="{{site.baseurl}}/CSS.html">CSS</a>
     			<a class="mdl-navigation__link" href="{{site.baseurl}}/JS.html">Java Script</a>
     			<a class="mdl-navigation__link" href="{{site.baseurl}}/#">Python</a>
+                {% for project in site.projects %}
+                    <a class="mdl-navigation__link" href="{{site.baseurl}}/#">{{ Category | first }}</a>
+                {% endfor %}
 			</nav>
 		</div>
         <div class="mdl-layout--small-screen-only">
