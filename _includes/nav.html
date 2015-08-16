@@ -12,7 +12,7 @@
     			<a class="mdl-navigation__link" href="{{site.baseurl}}/JS.html">Java Script</a>
     			<a class="mdl-navigation__link" href="{{site.baseurl}}/#">Python</a>
                 {% for categ in site.posts %}
-                    <a class="mdl-navigation__link" href="{{site.baseurl}}/#">{{ Category | first }}</a>
+                    <a class="mdl-navigation__link" href="{{site.baseurl}}/#">{{ categ.category | first }}</a>
                 {% endfor %}
 			</nav>
 		</div>
