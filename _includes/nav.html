@@ -11,11 +11,6 @@
     			<a class="mdl-navigation__link" href="{{site.baseurl}}/CSS.html">CSS</a>
     			<a class="mdl-navigation__link" href="{{site.baseurl}}/JS.html">Java Script</a>
     			<a class="mdl-navigation__link" href="{{site.baseurl}}/#">Python</a>
-                {% for nav-cat in site.posts %} 
-                    {% if nav-cat.category %}
-                        <a class="mdl-navigation__link" href="{{site.baseurl}}/#">{{nav-cat.category}}</a>
-                    {% endif %}
-                {% endfor %}
 			</nav>
 		</div>
         <div class="mdl-layout--small-screen-only">

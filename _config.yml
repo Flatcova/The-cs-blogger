@@ -1,4 +1,3 @@
 markdown: redcarpet
-url: https://flatcova.github.io/
 baseurl: /thecsblogger
 exclude: ['README.md']
