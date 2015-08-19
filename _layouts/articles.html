@@ -15,7 +15,9 @@ layout: header
                 <p>{{page.Date}}</p>
               </div>
               {{page.content}}
-              <a href="{{page.Links}}">{{page.Links}}</a>
+              {% for link in page.Link%}
+                <a href="{{page.Link}}">{{page.Link}}</a>
+              {% endfor %}
             </div>
           </div>
           {% include button.html%}
