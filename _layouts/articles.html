@@ -11,12 +11,13 @@ layout: header
             </div>
             <div class="mdl-color-text--grey-700 mdl-card mdl-card__supporting-text">
               <div>
-                <h5>{{page.Author}}</h5>
-                <div class="mdl-layout-spacer"></div>
-                <h5>{{page.Date}}</h5>
+                <h6>{{page.Author}}</h6>
+                <p>{{page.Date}}</p>
               </div>
               {{page.content}}
-              {{page.Links}}
+              {% for page.Links %}
+                {{page.Links}}
+              {% endfor %}
             </div>
           </div>
           {% include button.html%}
