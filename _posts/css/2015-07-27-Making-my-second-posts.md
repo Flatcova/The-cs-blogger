@@ -1,7 +1,7 @@
 ---
 layout: articles
 title: Making my second posts
-meta: Showing how I start from bottom to create this awesome blog.
+meta: Show how I start from bottom to create this awesome blog.
 source: http://www.flatcova.gituhb.io/The-cs-blogger/news.html
 category: css 3
 ---
