@@ -25,13 +25,13 @@
 		{% endif %}
 	{% endif %}
 
-	{% for post in site.categories %}
+	{% for post in site.categories.photos %}
         {% if post.url == page.url %}
             {% assign post_index0 = forloop.index0 %}
             {% assign post_index1 = forloop.index %}
         {% endif %}
     {% endfor %}
-    {% for post in site.categories %}
+    {% for post in site.categories.photos %}
         {% if post_index0 == forloop.index %}
             {% assign next_post = post.url %}
         {% endif %}
