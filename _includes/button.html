@@ -1,6 +1,6 @@
 <nav class="demo-nav mdl-color-text--grey-50 mdl-grid mdl-cell mdl-cell--12-col">
 	{% if page.category %}
-
+		{% if page.previous.categories contains page.category %}
 			<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}" class="demo-nav__button">
 				<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900"role="presentation" data-upgraded=",MaterialButton,MaterialRipple">
 				<i class="material-icons">arrow_back</i>
@@ -10,9 +10,9 @@
 				</button>
 				Older
 			</a>
-
+		{% endif %}
 		<div class="mdl-layout-spacer"></div>
-
+		{% if page.next.categories contains page.category %}
 			<a rel="next" href="{{site.baseurl}}{{page.next.url}}" class="demo-nav__button right">
 				Newer
 				<button class="mdl-button mdl-js-button mdl-js-ripple-effect mdl-button--icon mdl-color--white mdl-color-text--grey-900"role="presentation" data-upgraded=",MaterialButton,MaterialRipple">
@@ -22,6 +22,13 @@
 					</span>
 				</button>
 			</a>
-
+		{% endif %}
 	{% endif %}
+
+	{% if page.previous and page.previous.categories contains page.category %}
+			{{pate.previous.categories}}
+		{% endif %}
+		{% if page.next and page.next.categories contains page.category %}
+			{{pate.next.categories}}
+		{% endif %}
 </nav>
