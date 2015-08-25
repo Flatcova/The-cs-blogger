@@ -1,5 +1,6 @@
 <nav class="demo-nav mdl-color-text--grey-50 mdl-grid mdl-cell mdl-cell--12-col">
 	{% if page.category %}
+		{{page.category}}
 		{% if page.previous and page.previous.categories contains page.category %}
 			{{page.category}}
 			<a rel="prev" href="{{site.baseurl}}{{page.previous.url}}" class="demo-nav__button">
