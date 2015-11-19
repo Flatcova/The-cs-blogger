@@ -20,7 +20,11 @@ layout: default
   <main class="mdl-layout__content">
     <a name="top"></a>
     {{content}}
-    <div class="mdl-layout--small-screen-only">{% include footer.html %}</div>
+    <div class="mdl-layout--large-screen-only">
+      {% include footer.html %}
+    </div>
   </main>
-  <div class="mdl-layout--large-screen-only">{% include footer.html %}</div>
+  <div class="mdl-layout--small-screen-only">
+    {% include footer.html %}
+  </div>
 </div>
